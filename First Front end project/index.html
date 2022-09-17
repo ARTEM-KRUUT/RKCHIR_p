@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru"> <!--обозначает то что мы пишем html код , атрибут lang объявляет основной язык страницы -->
+<head>
+    <!-- Здесь находятся все метаданные страницы -->
+    <meta charset="UTF-8"> <!-- meta преоставляет браузеру метаданные о документе; атрибут charster объявляет кодировку utf-8-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--viewport контролирует масштаб отображения страницы на устройствах  -->
+    <!--content со значениями width=device-width и initial-scale=1.0 задает ширину видимой области равной ширине устройств при отсутствии изначального масштабирования.  -->
+    <title>Моя первая страница :3</title><!--Здесь мы задаем имя страницы , которое будет отображаться в верхней части окна-->
+    
+    <link rel="icon" type="image/png" href="http://cdn.onlinewebfonts.com/svg/img_438615.png"/>
+    <style>
+        ol ol {
+            list-style-type: disc;
+        }
+        .imges{
+            width:25%;
+            height:25%;
+        }
+    </style>
+</head>
+<body><!-- Здесь находится все содержимое страницы-->
+    <div>
+        <h1 id="Topic1">One </h1>
+        <p> Абзац с текстом который <br> обрывается с помощью тега br  </p>
+        <pre>
+    Также можно предварительно добавить текст
+    с его изначальным форматированием с помощью
+    тега pre
+    </pre>
+        <p>
+            Также мы можем использовать различные теги для форматирования текста <b> Например сделав его жирным</b> или <strong>  очень серьезным</strong> или добавив <i>изящности </i> с помощью курсива и <em>тега em </em> , выделить <mark>текст маркером</mark> , сделать <small> его меньше</small>
+            <s> зачеркнуть </s> или <del> удалить :o</del> , еще можно <u>подчеркнуть</u> , отобразить что <ins>он добавленный </ins>, что он является <sub> частью чего-то снизу</sub> или <sup> сверху </sup>
+            Можно <q> Процитировать великого человека фразой , которую он никогда не говорил</q>
+    </div>
+    <div>
+        <cite>или книгой </cite> еще можно вот так <blockquote> обозначить цитирование</blockquote>
+        <abbr> Абривиатура АБР </abbr>
+        <a href="#Topic1">Нажмите для перехода на другую страницу </a>
+        <a href="https://www.youtube.com/watch?v=DD-SRnijVXs&list=LL&index=157"> Забавное видео</a>
+        <a href="tel:89151811827">Позвонить по номеру</a>
+        <a href="mailto:artembyrakov1402@gmail.com">Написать письмо</a>
+        <h2> Two</h2>
+
+        <ol type="I" start="3">
+            <li>Жарко</li>
+            <li value="7">Тепло</li>
+
+            <li>
+                Прохладно
+                <ol>
+                    <li>Жарко</li>
+                    <li>Тепло</li>
+                </ol>
+            </li>
+            <li>
+                Холодно
+                <ul>
+                    <li>раз</li>
+                    <li>два</li>
+                </ul>
+            </li>
+        </ol>
+        <ul type="square">
+            <li>Один</li>
+            <li>Два</li>
+            <li>Три</li>
+            <li>Четыре</li>
+            <li>Пять</li>
+        </ul>
+
+        <dl>
+            <dt>Термин 1</dt>
+            <dd> Описание термина 1</dd>
+            <dd> Описание термина 1 :3</dd>
+            <dt>Термин 2</dt>
+            <dd>Описание термина 2</dd>
+
+            <dt>Термин 3</dt>
+            <dd>Описание термина 3</dd>
+            <dd>Описание термина 33</dd>
+            <dd>Описание термина 333</dd>
+        </dl>
+        <a href="https://www.youtube.com/shorts/odoFdcjt-14"> <img class="imges" src="https://sun1.userapi.com/sun1-47/s/v1/ig2/sr1CFvmeyF6X46ZvYeihPK6b6FGwbodWvKzimBPvx_s9zNStLsRWGCbmt47eT0Xg_1do4j_7DVBrQH8UYNQ_m8UN.jpg?size=576x754&quality=96&type=album" /> </a>
+        <img class="" src="https://sun1.userapi.com/sun1-92/s/v1/ig2/uVYZAPxboU8VE94Xmgpktxe3bfYPMTYJbogeKGiiRo19zMrHemorwTVH8toH5NsUr0yylrpfreOsVuYWjRhQVkn4.jpg?size=1201x1600&quality=95&type=album" usemap="#shapes" width="400" height="600"/>
+        <map name="shapes">
+            <area shape="circle" coords="300,100,40"  href="https://img2.goodfon.ru/original/3694x2463/6/9a/evropeyskaya-koshka-dikiy-kot.jpg" alt="cat1"/>
+            <area shape="rect" coords="177,300,306,134" href="https://proprikol.ru/wp-content/uploads/2020/12/kartinki-ryzhih-kotov-9.jpg" alt="cat2"/>
+            <area shape="poly" coords="79,60,50,134,153,134" href="https://images.wallpaperscraft.ru/image/single/kot_morda_vzglyad_89446_1600x1200.jpg" alt="cat3" />
+        </map>
+    
+    </div>
+  
+
+
+</body>
+</html>
