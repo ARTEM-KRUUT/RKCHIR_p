@@ -19,28 +19,51 @@
     </style>
 </head>
 <body><!-- Здесь находится все содержимое страницы-->
-    <div>
-        <h1 id="Topic1">One </h1>
+    <header> <!-- Тег с верхней частью страницы -->
+        <!--Заголовок  с id-->
+        <h1 id="Topic1">Важный заголовок! </h1>
         <p> Абзац с текстом который <br> обрывается с помощью тега br  </p>
         <pre>
     Также можно предварительно добавить текст
     с его изначальным форматированием с помощью
     тега pre
-    </pre>
-        <p>
-            Также мы можем использовать различные теги для форматирования текста <b> Например сделав его жирным</b> или <strong>  очень серьезным</strong> или добавив <i>изящности </i> с помощью курсива и <em>тега em </em> , выделить <mark>текст маркером</mark> , сделать <small> его меньше</small>
-            <s> зачеркнуть </s> или <del> удалить :o</del> , еще можно <u>подчеркнуть</u> , отобразить что <ins>он добавленный </ins>, что он является <sub> частью чего-то снизу</sub> или <sup> сверху </sup>
-            Можно <q> Процитировать великого человека фразой , которую он никогда не говорил</q>
-    </div>
-    <div>
-        <cite>или книгой </cite> еще можно вот так <blockquote> обозначить цитирование</blockquote>
-        <abbr> Абривиатура АБР </abbr>
-        <a href="#Topic1">Нажмите для перехода на другую страницу </a>
-        <a href="https://www.youtube.com/watch?v=DD-SRnijVXs&list=LL&index=157"> Забавное видео</a>
-        <a href="tel:89151811827">Позвонить по номеру</a>
-        <a href="mailto:artembyrakov1402@gmail.com">Написать письмо</a>
-        <h2> Two</h2>
+───▐▀▄──────▄▀▌───▄▄▄▄▄▄▄
+───▌▒▒▀▄▄▄▄▀▒▒▐▄▀▀▒██▒██▒▀▀▄
+──▐▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▀▄
+──▌▒▒▒▒▒▒▒▒▒▒▒▒▒▄▒▒▒▒▒▒▒▒▒▒▒▒▒▀▄
+▀█▒▒█▌▒▒█▒▒▐█▒▒▀▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▌
+▀▌▒▒▒▒▒▀▒▀▒▒▒▒▒▀▀▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▐ ▄▄
+▐▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▄█▒█
+▐▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▀
+──▐▄▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▄▌
+────▀▄▄▀▀▀▀▄▄▀▀▀▀▀▀▄▄▀▀▀▀▀▀▄▄▀
 
+    </pre>
+
+    </header>
+
+
+
+    <div style="text-align: center">
+        <p><!-- Форматирования текста тегами из таблицы -->
+            Также мы можем использовать различные теги для форматирования текста<br> <b> Например сделав его жирным</b> или <strong>  очень серьезным</strong> или добавив <i>изящности </i> с помощью курсива и <em>тега em </em> ,<br> выделить <mark>текст маркером</mark> , сделать <small> его меньше</small>
+            <s> зачеркнуть </s> или <del> удалить :o</del> ,<br> еще можно <u>подчеркнуть</u> , отобразить что <ins>он добавленный </ins>,<br> что он является <sub> частью чего-то снизу</sub> или <sup> сверху </sup><br>
+            Можно <q> Процитировать великого человека фразой , которую он никогда не говорил</q>
+            <cite>или курсив вот так </cite> еще можно  <blockquote> обозначить цитирование</blockquote>
+            <abbr> Абривиатура АБР </abbr>
+    </div>
+
+
+    <div>
+
+
+        <!--Ссылка на переход в конец страницы -->
+        <a href="#Topic2">Нажмите для перехода на конец страницы </a> <br>
+        <!--Ссылка на забавное видео -->
+        <a href="https://www.youtube.com/shorts/5-WAxZH6n00"> Забавное видео</a>
+
+        <h2><a id="Topic2" href="#Topic1">Нажмите для перехода на начало страницы </a></h2>
+        <!-- Список пронумерованный-->
         <ol type="I" start="3">
             <li>Жарко</li>
             <li value="7">Тепло</li>
@@ -60,6 +83,7 @@
                 </ul>
             </li>
         </ol>
+        <!-- ненумерованный список-->
         <ul type="square">
             <li>Один</li>
             <li>Два</li>
@@ -67,7 +91,7 @@
             <li>Четыре</li>
             <li>Пять</li>
         </ul>
-
+        <!--Список описаний терминов-->
         <dl>
             <dt>Термин 1</dt>
             <dd> Описание термина 1</dd>
@@ -80,17 +104,22 @@
             <dd>Описание термина 33</dd>
             <dd>Описание термина 333</dd>
         </dl>
+        <!--картинка со ссылкой на внешний ресурс-->
         <a href="https://www.youtube.com/shorts/odoFdcjt-14"> <img class="imges" src="https://sun1.userapi.com/sun1-47/s/v1/ig2/sr1CFvmeyF6X46ZvYeihPK6b6FGwbodWvKzimBPvx_s9zNStLsRWGCbmt47eT0Xg_1do4j_7DVBrQH8UYNQ_m8UN.jpg?size=576x754&quality=96&type=album" /> </a>
-        <img class="" src="https://sun1.userapi.com/sun1-92/s/v1/ig2/uVYZAPxboU8VE94Xmgpktxe3bfYPMTYJbogeKGiiRo19zMrHemorwTVH8toH5NsUr0yylrpfreOsVuYWjRhQVkn4.jpg?size=1201x1600&quality=95&type=album" usemap="#shapes" width="400" height="600"/>
+        <!--картинка  с картой с кликабельными зонами -->
+        <img class="" src="img\1.png" usemap="#shapes" width="512" height="512" />
         <map name="shapes">
-            <area shape="circle" coords="300,100,40"  href="https://img2.goodfon.ru/original/3694x2463/6/9a/evropeyskaya-koshka-dikiy-kot.jpg" alt="cat1"/>
-            <area shape="rect" coords="177,300,306,134" href="https://proprikol.ru/wp-content/uploads/2020/12/kartinki-ryzhih-kotov-9.jpg" alt="cat2"/>
-            <area shape="poly" coords="79,60,50,134,153,134" href="https://images.wallpaperscraft.ru/image/single/kot_morda_vzglyad_89446_1600x1200.jpg" alt="cat3" />
+            <area shape="circle" coords="100,100,50" href="https://img2.goodfon.ru/original/3694x2463/6/9a/evropeyskaya-koshka-dikiy-kot.jpg" alt="cat1" />
+            <area shape="rect" coords="300,100,430,200" href="https://proprikol.ru/wp-content/uploads/2020/12/kartinki-ryzhih-kotov-9.jpg" alt="cat2" />
+            <area shape="poly" coords="150,350,220,250,300,350" href="https://images.wallpaperscraft.ru/image/single/kot_morda_vzglyad_89446_1600x1200.jpg" alt="cat3" />
         </map>
-    
-    </div>
-  
 
+    </div>
+    <!--тег с  нижней частью страницы-->
+    <footer>
+        <a href="tel:89151811827">Позвонить по номеру</a>
+        <a href="mailto:artembyrakov1402@gmail.com">Написать письмо</a>
+    </footer>
 
 </body>
 </html>
