@@ -1,0 +1,536 @@
+* {
+    box-sizing: border-box;
+}
+.spacetext {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 200%;
+    color:white;
+}
+
+ol ol {
+    color:white;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 100%;
+    list-style: disc;
+}
+
+.imges {
+    width:10%;
+    height:10%;
+    float:left;
+    margin-right: 3%;
+    margin-left: 1%;
+}
+
+.main-text-h{
+    position: sticky;
+    margin: left;
+}
+header{
+    display:flex;
+    background: rgb(2,0,36);
+    background: linear-gradient(93deg, rgba(2,0,36,1) 0%, rgba(9,19,121,1) 25%, rgba(0,69,255,0.9136029411764706) 100%);
+    max-height: 5%;
+    width: 100%;
+    align-items: center;
+    
+}
+.logo{
+    min-width: 50px;
+    max-width: 100px;
+
+}
+main{
+    background: rgb(29, 50, 107);
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-image: url(https://wallup.net/wp-content/uploads/2016/01/191136-meteors-space-Earth-Mass_Effect.jpg);
+    
+}
+
+
+footer{
+    background-color: gray ;
+}
+.footer_info{
+    text-decoration: none;
+    color: black;
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color:#900060;
+}
+.add_to_original_text{
+    margin:auto;
+    overflow-wrap:break-word;
+}
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside > p {
+    margin: .5rem;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
+.section_style{
+    background-color: rgba(192,192,192,0.9);
+}
+.head_to_state{
+    font-size: 250%;
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: center;
+    color:white;
+}
+
+.easteregg{
+    width: 10em;
+    height: 5ex;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.easteregg:active{
+    box-shadow: 2px 2px 5px #fc894d;;
+}
+
+.list{
+    margin-left:40%;
+}
+.list ul{
+    display: flex;
+}
+.list ul li{
+    font-size: 175%;
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: center;
+    color:white;
+    margin-left: 5%;
+    border-radius: 6%;
+    position: sticky;
+}
+.list ul li:hover{
+    background-color: rgb(20, 161, 255);
+    transition-duration: 0.5s;
+    box-shadow:0 3px 0px rgb(2, 26, 87);
+}
+
+.ubun li{
+    
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: white;
+    list-style-type: none;
+
+}
+.ubun li a{
+    color:black;
+}
+
+ul{
+    
+    color:white;
+    font-size: 100%;
+    font-family: 'Space Grotesk', sans-serif;
+}
+ol{
+    color:white;
+    font-size: 100%;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.SR2{
+    text-decoration: underline;
+}
+p{
+    padding: 10px;
+}
+.normandy{
+    object-fit: fill;
+    width:20%;
+    float:right;
+    height: 20%;
+    
+    margin-left: 5%;
+    margin-right: 5%;
+}
+a{
+    text-decoration: none;
+}
+.tobegining{
+    opacity: 0.7;
+    z-index: 9999;
+    width: 46px;
+    height: 46px;
+    position: fixed;
+    bottom: -80px;
+    right: 10px;
+    cursor: pointer;
+    border: 3px solid #BFE2FF;
+    transition: all .7s ease-in-out;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #337AB7;
+    background-size: 50% auto;  
+    background-image: url(https://cdn-icons-png.flaticon.com/512/54/54817.png);
+}
+.tobegining:hover{
+transition: 0.5s;
+background-color: rgb(0, 68, 255);
+}
+.d1{
+    background: #900060;
+    display: block;
+    width: 10em;
+    margin-left: 100px;
+}
+.d2{
+    background-color: #f34079;
+    display: block;
+    width: 10em;
+    margin-left: 100px;
+
+}
+.enot{
+    position:relative;
+}
+.enot_img{
+    width: 100%;
+    height: 100%;
+
+}
+.da{
+    position:relative;
+    width: 20%;
+    height: 20%;
+    background-color: #29627e;
+    background-color: #337AB7;
+    background-size: 50% auto;  
+}
+.box {
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    background: rgb(0, 255, 34);
+    color: white;
+  }
+  #one{
+    position: relative;
+    left: 152px;
+  }
+  #two {
+    position: relative;
+    bottom: 78px;
+    left: 20px;
+    background: blue;
+  }
+  #two:hover{
+    transition: 0.3s;
+    left: 130px;
+  }
+
+input:invalid{
+    border: red solid 2px;
+}
+label{
+    color:white;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 120%;
+}
+.col1{
+    margin-left: 5%;
+    margin-right: 40%;
+}
+.col1 label{
+    display: flex;
+    flex-direction: column;
+    border-radius:50%;
+
+}
+.col1 label{
+    display: flex;
+    flex-direction: column;
+    border-radius:50%;
+    
+}
+.col1 :focus{
+background-color: black;
+color:white;
+}
+
+.col2 label{
+    margin-left: 5%;
+}
+.col2 fieldset{
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50%;
+}
+.button2{
+    margin-left: 5%;
+    margin-bottom: 1%;
+    background-color: white;
+    border-radius: 5%;
+    width: 150px;
+    font-size: 120%;
+}
+.button2:hover{
+cursor: pointer;
+background-color: rgb(79, 108, 163);
+}
+input:checked{
+    margin-left: 25px;
+    border: 1px solid blue;
+}
+
+
+.try{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.try div h2{
+    border:2px solid white;
+    padding-right: 250 px;
+}
+
+.try div{
+    color: #fff;
+    border: 2px solid pink;
+    padding-top: 15%;
+        padding-left: 15%;
+    padding-bottom: 15%;
+    margin: 10px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+
+/*Галерея*/
+
+.container {
+    padding: 40px 5%;
+  }
+  
+  .heading-text {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .heading-text span {
+    font-weight: 100;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* Responsive image gallery rules begin*/
+  
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .image-gallery > li {
+    flex-basis: 350px; /*width: 350px;*/
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .image-gallery::after {
+    content: "";
+    flex-basis: 350px;
+  }
+  
+  .image-gallery li img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    border-radius: 5px;
+  }
+  
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(136, 136, 136, 0.502);
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transition: all 0.2s 0.1s ease-in-out;
+    color: #fff;
+    border-radius: 5px;
+    /* center overlay text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* hover */
+  .image-gallery li:hover .overlay {
+    transform: scale(1);
+  }
+  
+
+
+
+  /*БУРГЕР МЕНЮ*/
+  
+#menu__toggle, #menu__btn{display: none}
+
+.hamburger-menu
+{
+    display:flex;
+
+    text-align:right; 
+    flex-direction: row;
+    margin-left:10%;
+    
+}
+
+.hamburger-menu ul{
+    text-align: right; 
+    padding: 0;
+    
+}
+.menu__box {
+    display: flex;
+    flex:end;
+}
+.menu__item{
+    display: block;
+    padding: 5px 5px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.menu__item:hover {
+    background-color: #0051ff;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 1000px)
+{
+    .d2{width: 10vw; flex-grow: 2;}
+    .d4{width: 25vw;}
+    .aa{width:70vw;}
+    
+    h2{font-size:medium;}
+    .godar{opacity: 0;}
+
+    nav li{
+        display: block;
+        width:20vw;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    .overlay{
+        background-color: pink;
+        opacity: 0.5;
+    }
+    
+    /* контейнер меню */
+    .menu__box {
+        display: block;
+        position: fixed;
+        visibility: hidden;
+        top: 0;
+        left: 100%;
+        width: 100vw;
+        height: 100%;
+        margin: 0;
+        margin-top: 100px;
+        padding: 80px 0;
+        list-style: none;
+        text-align: center;
+        background-color: #0051ff;
+        border-color: #ffffff;
+    }
+    .menu__item:hover{
+        background-color: rgb(0, 119, 255);
+    }
+
+    #menu__toggle {
+        opacity: 0;
+    }
+    .menu__btn {
+        display: flex; 
+        align-items: center;  
+        position: fixed;
+        top: 20px;
+        left: 90%;
+        width: 26px; /*по ширине кнопки расположены три полосы span*/
+        height: 26px;
+        cursor: pointer;
+        z-index: 1;
+    }
+    .menu__item{
+        margin-right: 10%;
+    }
+
+    /*составляющие кнопки меню мобилок*/
+    .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after{
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 3px; /*ширина полос, составляющих кнопку меню мобилок-->*/
+        background-color: #ffffff; /*цвет полос, составляющих кнопку меню мобилок-->*/
+    }
+
+    .menu__btn > span::before { /*верхняя полосочка*/
+        content: '';
+        top: -9px;
+    }
+    .menu__btn > span::after {/*нижняя полосочка*/
+      content: '';
+      top: 9px;
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span { /*разворот полоски после нажатия*/
+    transform: rotate(45deg);
+    transition: 0.5s;
+      }
+      #menu__toggle:checked ~ .menu__btn > span::before { /*разворот полоски после нажатия*/
+        top: 0;
+        transform: rotate(0);
+      }
+      #menu__toggle:checked ~ .menu__btn > span::after {
+        top: 0;
+        transition: 0.5s;
+        transform: rotate(90deg);
+      }
+      #menu__toggle:checked ~ .menu__box { /*кнопка меню становится видимой*/
+        visibility: visible;
+        transition: 0.5s;
+        left: 0;
+      }
+}
+

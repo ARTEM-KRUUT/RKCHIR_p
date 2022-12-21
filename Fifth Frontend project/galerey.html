@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <!--обозначает то что мы пишем html код , атрибут lang объявляет основной язык страницы -->
+<head>
+    <!-- Здесь находятся все метаданные страницы -->
+    <meta charset="UTF-8"> <!-- meta преоставляет браузеру метаданные о документе; атрибут charster объявляет кодировку utf-8-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--viewport контролирует масштаб отображения страницы на устройствах  -->
+    <!--content со значениями width=device-width и initial-scale=1.0 задает ширину видимой области равной ширине устройств при отсутствии изначального масштабирования.  -->
+    <title>Space aircrafts</title><!--Здесь мы задаем имя страницы , которое будет отображаться в верхней части окна-->
+
+    <link rel="icon" type="image/png" href="img/logo.png" />
+    <link rel="stylesheet" href="style.css" />
+
+ 
+</head>
+<body>
+<!-- Здесь находится все содержимое страницы-->
+<header>
+    <!-- Тег с верхней частью страницы -->
+    <!--Заголовок  с id-->
+
+    <a href="index.html">
+        <img class="logo" src="img/logo.png" alt="logo" />
+    </a>
+    
+    <h1  id="Main_head" class="spacetext main-text-h">Space aircrafts </h1>
+    
+    <!--<nav class='list'>
+        <ul class="ubun">
+            <li>
+                <a href="galerey.html">
+                    Галерея
+                </a>
+            </li>
+            <li>
+                <a href="video.html">
+                    Section2
+                </a>
+            </li>
+            <li>
+                <a href="horek.html">
+                    Easteregg
+                </a>
+            </li>
+            <li>
+                <a href="registration.html">
+                    Профиль
+                </a>
+            </li>
+            
+        </ul>
+    </nav>-->
+    <div class="hamburger-menu">
+        <!--кнопка меню будет выполнена как чекбокс-->
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span> <!--место для кнопки меню в мобильном устройстве-->
+        </label>
+        
+        <ul class="menu__box">
+          <li><a class="menu__item" href="index.html">Главная</a></li>
+          <li><a class="menu__item" href="galerey.html">Галерея</a></li>
+          <li><a class="menu__item" href="video.html">Secction2</a></li>
+          <li><a class="menu__item" href="horek.html">Easteregg</a></li>
+          <li><a class="menu__item" href="registration.html">Профиль</a></li>
+        </ul>
+    </div>
+
+
+</header>
+    <main>
+        <div  class="container">
+            <!-- текст заголовка -->
+            <ul  class="image-gallery">
+              <li>
+                <img  src="https://aws1.discourse-cdn.com/business20/uploads/facepunch1/original/2X/8/83a3805000688f91edf324cfeb16a4cbf20a9725.jpeg" alt="" />
+                <div  class="overlay"><span>Турианский дредноут</span></div>
+              </li>
+              <li>
+                <img  src="http://preview.turbosquid.com/Preview/2014/07/11__08_05_42/aNORMANDY_1.jpgf061dfa1-ab2f-465d-90d4-c0b6e5264ed1Original.jpg" alt="" />
+                <div  class="overlay"><span>Normandy SR1</span></div>
+              </li>
+              <li>
+                <img  src="https://img3.goodfon.com/original/3888x2592/4/39/art-planeta-zvezdy.jpg" alt="" />
+                <div  class="overlay"><span>Рандомный корабль</span></div>
+              </li>
+              <li>
+                <img  src="https://i.playground.ru/i/pix/1336642/image.jpg" alt="" />
+                <div  class="overlay"><span>Кварианский корабль</span></div>
+              </li>
+              <li>
+                <img  src="https://i.pinimg.com/originals/81/b1/2d/81b12db8275e050ad27e9de4e2119d69.jpg" alt="" />
+                <div  class="overlay"><span>Жнецы(Фе)</span></div>
+              </li>
+              <!-- другие элементы здесь -->
+            </ul>
+            
+           </div>
+    </main>
+</body>

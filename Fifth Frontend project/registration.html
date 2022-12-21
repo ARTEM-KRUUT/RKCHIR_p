@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <!--обозначает то что мы пишем html код , атрибут lang объявляет основной язык страницы -->
+<head>
+    <!-- Здесь находятся все метаданные страницы -->
+    <meta charset="UTF-8"> <!-- meta преоставляет браузеру метаданные о документе; атрибут charster объявляет кодировку utf-8-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--viewport контролирует масштаб отображения страницы на устройствах  -->
+    <!--content со значениями width=device-width и initial-scale=1.0 задает ширину видимой области равной ширине устройств при отсутствии изначального масштабирования.  -->
+    <title>Space aircrafts</title><!--Здесь мы задаем имя страницы , которое будет отображаться в верхней части окна-->
+
+    <link rel="icon" type="image/png" href="img/logo.png" />
+    <link rel="stylesheet" href="style.css" />
+
+ 
+</head>
+<body>
+<!-- Здесь находится все содержимое страницы-->
+<header>
+    <!-- Тег с верхней частью страницы -->
+    <!--Заголовок  с id-->
+
+    <a href="index.html">
+        <img class="logo" src="img/logo.png" alt="logo" />
+    </a>
+    
+    <h1  id="Main_head" class="spacetext main-text-h">Space aircrafts </h1>
+    
+    
+    <!--<nav class='list'>
+        <ul class="ubun">
+            <li>
+                <a href="galerey.html">
+                    Галерея
+                </a>
+            </li>
+            <li>
+                <a href="video.html">
+                    Section2
+                </a>
+            </li>
+            <li>
+                <a href="horek.html">
+                    Easteregg
+                </a>
+            </li>
+            <li>
+                <a href="registration.html">
+                    Профиль
+                </a>
+            </li>
+            
+        </ul>
+    </nav>-->
+    <div class="hamburger-menu">
+        <!--кнопка меню будет выполнена как чекбокс-->
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span> <!--место для кнопки меню в мобильном устройстве-->
+        </label>
+        
+        <ul class="menu__box">
+          <li><a class="menu__item" href="index.html">Главная</a></li>
+          <li><a class="menu__item" href="galerey.html">Галерея</a></li>
+          <li><a class="menu__item" href="video.html">Secction2</a></li>
+          <li><a class="menu__item" href="horek.html">Easteregg</a></li>
+          <li><a class="menu__item" href="registration.html">Профиль</a></li>
+        </ul>
+    </div>
+
+</header>
+    <main>
+        <section>
+                <div class="registration_block" >
+                <h2 class="main-text-h spacetext" style="text-align: center;" >Регистрация</h2>   
+                
+                <div class="col1">
+                    <form name="form1" method="post">
+                        <label for="user_name">Имя</label> 
+                            <input type="text" name="user_name"  placeholder="Ваше Имя" required>
+                        
+
+                        <label>E-mail <input type="email" name="email"></label>
+                        <label>Номер телефона <input type="tel" placeholder="+7(999)-999-99-99" name="phone" pattern="[0-9]{,11}"></label>
+                        <label>Дата и время(???) рождения <input type="datetime-local" name="date" max="2004-10-07T20:20" min="1904-10-06T20:20"></label>
+                        <label>Пароль <input type="password" name="passwd" placeholder="4-16 символов" minlength="4" maxlength="16" required="true"></label>
+                        <label>Расскажите о себе <textarea name="about" rows="10" cols="40" maxlength="100" minlength="30" 
+                            placeholder="Расскажите нам про Вас" required="true"></textarea>
+                        </label>
+                    </form>
+        
+                    <form name="form2" method="post">
+                        <label class="input-file">
+                            <input type="file" name="file" class="input_file">
+                        </label>
+                    </form>
+        
+                    <div>
+                        <label class="check" for="agree">Согласен продать душу котикам</label>
+                        <input type="checkbox" class="simplecheckbox" id="agree" name="agree" value="yes">
+                    </div>
+                </div>
+        
+        
+                <div class="col2">
+                    
+        
+                    <fieldset> <!--группировка элементов формы-->
+                        <legend class="spacetext">Выберите интересные Вам темы</legend><!--заголовок -->
+                        <label>Ракеты<input class="inp" type="radio" name="radio_1" ></label>
+                        <label>Космос<input class="inp" type="radio" name="radio_2"></label>
+                        <label>Звезды<input class="inp" type="radio" name="radio_3"></label>
+                        <label>Планеты<input class="inp" type="radio" name="radio_4"></label>
+                        <label>Другое<input class="inp" type="radio" name="radio_6"></label>
+                    </fieldset>
+                    
+                    <input class="button2" id="sub" type="submit" name="sub">
+                    
+                    <form>
+                        <label>Любимый персонаж
+                            <select id="fP" name="favPers" multiple required="true" size="4">
+                                <option>Шепард</option>
+                                <option>Гаррус</option>
+                                <option>Грюнт</option>
+                                <option>Тали</option>
+                                <option>Миранда</option>
+                                <option>Сюзи</option>
+                                <option>Хекет</option>
+                                <option>Аквариумная рыбка</option>
+                                <option>Джефф Моро</option>
+                                <option>Призрак</option>
+                            </select>
+                        </label>
+                        
+                    </form>
+                </div>
+                
+            </div>
+        <button class="button2" name="button2">Кнопка2</button>
+        </section>
+    </main>
+</body>

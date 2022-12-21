@@ -1,0 +1,249 @@
+.spacetext {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 200%;
+    color:white;
+}
+
+ol ol {
+    color:white;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 100%;
+    list-style: disc;
+}
+
+.imges {
+    width:10%;
+    height:10%;
+    float:left;
+    margin-right: 3%;
+    margin-left: 1%;
+}
+
+.main-text-h{
+    position: sticky;
+    
+}
+header{
+    display:flex;
+    background: rgb(2,0,36);
+background: linear-gradient(93deg, rgba(2,0,36,1) 0%, rgba(9,19,121,1) 25%, rgba(0,69,255,0.9136029411764706) 100%);
+    max-height: 5%;
+    width: 100%;
+    align-items: center;
+    
+}
+.logo{
+    min-width: 50px;
+    max-width: 100px;
+
+}
+main{
+    background: rgb(29, 50, 107);
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-image: url(https://wallup.net/wp-content/uploads/2016/01/191136-meteors-space-Earth-Mass_Effect.jpg);
+   
+}
+
+
+footer{
+    background-color: gray ;
+}
+.footer_info{
+    text-decoration: none;
+    color: black;
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color:#900060;
+}
+.add_to_original_text{
+    margin:auto;
+}
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside > p {
+    margin: .5rem;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
+.section_style{
+    background-color: rgba(192,192,192,0.9);
+}
+.head_to_state{
+    font-size: 250%;
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: center;
+    color:white;
+}
+
+.easteregg{
+    width: 10em;
+    height: 5ex;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.easteregg:active{
+    box-shadow: 2px 2px 5px #fc894d;;
+}
+header{
+    position:absolute;
+}
+.list{
+    margin-left:50%;
+    
+}
+.list ul{
+    display: flex;
+}
+.list ul li{
+    font-size: 175%;
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: center;
+    color:white;
+    margin-left: 5%;
+    border-radius: 6%;
+    position: sticky;
+}
+.list ul li:hover{
+    background-color: rgb(20, 161, 255);
+    transition-duration: 0.5s;
+    box-shadow:0 3px 0px rgb(2, 26, 87);
+}
+
+
+.ubun li{
+    
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: white;
+    list-style-type: none;
+
+}
+.ubun li a{
+    color:black;
+}
+
+ul{
+    
+    color:white;
+    font-size: 100%;
+    font-family: 'Space Grotesk', sans-serif;
+}
+ol{
+    color:white;
+    font-size: 100%;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.SR2{
+    text-decoration: underline;
+}
+p{
+    padding: 10px;
+}
+.normandy{
+    object-fit: fill;
+    width:20%;
+    float:right;
+    height: 20%;
+    
+    margin-left: 5%;
+    margin-right: 5%;
+}
+a{
+    text-decoration: none;
+}
+.tobegining{
+    opacity: 0.7;
+    z-index: 9999;
+    width: 46px;
+    height: 46px;
+    position: fixed;
+    bottom: -80px;
+    right: 10px;
+    cursor: pointer;
+    border: 3px solid #BFE2FF;
+    transition: all .7s ease-in-out;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #337AB7;
+    background-size: 50% auto;  
+    background-image: url(https://cdn-icons-png.flaticon.com/512/54/54817.png);
+}
+.tobegining:hover{
+transition: 0.5s;
+background-color: rgb(0, 68, 255);
+}
+.d1{
+    position:sticky;
+    top:20px;
+    background: #900060;
+    display: block;
+    width: 10em;
+    margin-left: 100px;
+}
+.d2{
+    background-color: #f34079;
+    display: block;
+    width: 10em;
+    margin-left: 100px;
+
+}
+.enot{
+    position:relative;
+}
+.enot_img{
+    width: 100%;
+    height: 100%;
+
+}
+.da{
+    position:relative;
+    width: 20%;
+    height: 20%;
+    background-color: #29627e;
+    background-color: #337AB7;
+    background-size: 50% auto;  
+}
+.box {
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    background: rgb(0, 255, 34);
+    color: white;
+  }
+  #one{
+    position: relative;
+    left: 152px;
+  }
+  #two {
+    position: relative;
+    bottom: 78px;
+    left: 20px;
+    background: blue;
+  }
+  #two:hover{
+    transition: 0.3s;
+    left: 130px;
+  }

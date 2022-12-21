@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <!--обозначает то что мы пишем html код , атрибут lang объявляет основной язык страницы -->
+<head>
+    <!-- Здесь находятся все метаданные страницы -->
+    <meta charset="UTF-8"> <!-- meta преоставляет браузеру метаданные о документе; атрибут charster объявляет кодировку utf-8-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--viewport контролирует масштаб отображения страницы на устройствах  -->
+    <!--content со значениями width=device-width и initial-scale=1.0 задает ширину видимой области равной ширине устройств при отсутствии изначального масштабирования.  -->
+    <title>Space aircrafts</title><!--Здесь мы задаем имя страницы , которое будет отображаться в верхней части окна-->
+
+    <link rel="icon" type="image/png" href="img/logo.png" />
+    <link rel="stylesheet" href="style.css" />
+ <!--Подключаем фигню с иконками-->   <script src="https://kit.fontawesome.com/f0b1877548.js" crossorigin="anonymous"></script>
+ 
+</head>
+<body>
+<!-- Здесь находится все содержимое страницы-->
+<header>
+    <!-- Тег с верхней частью страницы -->
+    <!--Заголовок  с id-->
+
+    <a href="index.html">
+        <img class="logo" src="img/logo.png" alt="logo" />
+    </a>
+    
+    <h1  id="Main_head" class="spacetext main-text-h">Space aircrafts </h1>
+    
+    
+    <!--<nav class='list'>
+        <ul class="ubun">
+            <li>
+                <a href="galerey.html">
+                    Галерея
+                </a>
+            </li>
+            <li>
+                <a href="video.html">
+                    Section2
+                </a>
+            </li>
+            <li>
+                <a href="horek.html">
+                    Easteregg
+                </a>
+            </li>
+            <li>
+                <a href="registration.html">
+                    Профиль
+                </a>
+            </li>
+            
+        </ul>
+    </nav>-->
+    <div class="hamburger-menu">
+        <!--кнопка меню будет выполнена как чекбокс-->
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span> <!--место для кнопки меню в мобильном устройстве-->
+        </label>
+        
+        <ul class="menu__box">
+          <li><a class="menu__item" href="index.html">Главная</a></li>
+          <li><a class="menu__item" href="galerey.html">Галерея</a></li>
+          <li><a class="menu__item" href="Page.html">Secction2</a></li>
+          <li><a class="menu__item" href="horek.html">Easteregg</a></li>
+          <li><a class="menu__item" href="registration.html">Профиль</a></li>
+        </ul>
+    </div>
+
+</header>
+
+    <main>
+        <div class="grid-main-container">
+            <div class="grid-main-box">
+                <div class="grid-box-content">
+                    <img src="https://i.pinimg.com/originals/ae/c8/75/aec8756d77d04b46941a164f5b338ba2.jpg" alt="">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, qui? Dicta, consequatur rerum! Dicta iste, amet dolore aliquid veritatis ipsum reprehenderit molestias nobis illum ratione blanditiis nulla quo vitae asperiores.
+                    </p>
+                </div>
+            </div>
+            <div class="grid-main-box">
+                <div class="grid-box-content">
+                    <img src="https://i.pinimg.com/originals/0b/40/b8/0b40b8b2396ad4d8ca889a06e03e31fa.jpg" alt="">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, qui? Dicta, consequatur rerum! Dicta iste, amet dolore aliquid veritatis ipsum reprehenderit molestias nobis illum ratione blanditiis nulla quo vitae asperiores.
+                    </p>
+                </div>
+            </div>
+            <div class="grid-main-box">
+                <div class="grid-box-content">
+                    <img src="https://images.alphacoders.com/240/240881.jpg" alt="">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, qui? Dicta, consequatur rerum! Dicta iste, amet dolore aliquid veritatis ipsum reprehenderit molestias nobis illum ratione blanditiis nulla quo vitae asperiores.
+                    </p>
+                </div>
+            </div>
+            <div class="grid-main-box">
+                <div class="grid-box-content">
+                    <img src="https://cq.ru/storage/uploads/images/1213011/1.jpg" alt="">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, qui? Dicta, consequatur rerum! Dicta iste, amet dolore aliquid veritatis ipsum reprehenderit molestias nobis illum ratione blanditiis nulla quo vitae asperiores.
+                    </p>
+                </div>
+            </div>
+            <div class="grid-main-box">
+                <div class="grid-box-content">
+                    <img src="https://i.pinimg.com/564x/dd/83/90/dd83902b9ee4a8f59542b36afcd1fd3e.jpg" alt="">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, qui? Dicta, consequatur rerum! Dicta iste, amet dolore aliquid veritatis ipsum reprehenderit molestias nobis illum ratione blanditiis nulla quo vitae asperiores.
+                    </p>
+                </div>
+            </div>    
+            <div class="grid-main-box">
+                <div class="grid-box-content">
+                    <img src="https://i.pinimg.com/564x/c4/29/a7/c429a78bfd47c2fa9715ec588252d291.jpg" alt="">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, qui? Dicta, consequatur rerum! Dicta iste, amet dolore aliquid veritatis ipsum reprehenderit molestias nobis illum ratione blanditiis nulla quo vitae asperiores.
+                    </p>
+                </div>
+            </div>
+            <div class="grid-main-box">
+                <div class="grid-box-content">
+                    <img src="https://i.pinimg.com/564x/c4/29/a7/c429a78bfd47c2fa9715ec588252d291.jpg" alt="">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, qui? Dicta, consequatur rerum! Dicta iste, amet dolore aliquid veritatis ipsum reprehenderit molestias nobis illum ratione blanditiis nulla quo vitae asperiores.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+        
+    </main>
+
+
+    <footer class="Grid__Container">
+
+        <div class="Column">
+          <div class="Column__Header">Solutions</div>
+          <a href="#analytics" class="Column__Link">Analytics</a>
+          <a href="#marketing" class="Column__Link">Marketing</a>
+          <a href="#innotivation" class="Column__Link">Innovation</a>
+          <a href="#onboarding" class="Column__Link">On Boarding</a>
+          <a href="#development" class="Column__Link">Development</a>
+        </div>
+    
+        <div class="Column">
+          <div class="Column__Header">Support</div>
+          <a href="#pricing" class="Column__Link">Pricing</a>
+          <a href="#apidocs" class="Column__Link">API Docs</a>
+          <a href="#examples" class="Column__Link">Examples</a>
+        </div>
+    
+        <div class="Column">
+          <div class="Column__Header">Company</div>
+          <a href="#about" class="Column__Link">About</a>
+          <a href="#blog" class="Column__Link">Blog</a>
+          <a href="#careers" class="Column__Link">Careers</a>
+          <a href="#news" class="Column__Link">News</a>
+        </div>
+    
+        <div class="Column">
+          <div class="Column__Header">Legal</div>
+          <a href="#claim" class="Column__Link">Claim</a>
+          <a href="#blog" class="Column__Link">Privacy</a>
+          <a href="#careers" class="Column__Link">Careers</a>
+        </div>
+    
+        <div class="Bottom_Column">
+          <div class="Bottom_Column__Content_Container">
+            <div class="Column__Link">
+              Awesome Company LLC.
+            </div>
+    
+            <div class="Column__Social_Icons_Container">
+              <a href="#twitter" class="Column__Social_Link">
+                <svg class="Social__Icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Twitter icon</title><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" /></svg>
+              </a>
+              <a href="#facebook" class="Column__Social_Link">
+                <svg class="Social__Icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Facebook icon</title><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" /></svg>
+              </a>
+              <a href="#youtube" class="Column__Social_Link">
+                <svg class="Social__Icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>YouTube icon</title><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" /></svg>
+              </a>
+            </div>
+    
+          </div>
+        </div>
+      </footer>
+
+</body>

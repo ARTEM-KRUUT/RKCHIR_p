@@ -1,0 +1,121 @@
+.spacetext {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 200%;
+    color:white;
+}
+
+ol ol {
+    list-style-type: disc;
+}
+
+.imges {
+    width: 20%;
+    height: 20%;
+}
+
+.main-text-h{
+   
+    margin: left;
+}
+header{
+    display:flex;
+    background: rgb(2,0,36);
+background: linear-gradient(93deg, rgba(2,0,36,1) 0%, rgba(9,19,121,1) 25%, rgba(0,69,255,0.9136029411764706) 100%);
+    max-height: 5%;
+    width: 100%;
+    align-items: center;
+    
+}
+.logo{
+    min-width: 50px;
+    max-width: 100px;
+
+}
+main{
+    background: rgb(29, 50, 107);
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+footer{
+    background-color: gray ;
+}
+.footer_info{
+    text-decoration: none;
+    color: black;
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color:#900060;
+}
+.add_to_original_text{
+    margin:auto;
+}
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside > p {
+    margin: .5rem;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
+.section_style{
+    background-color: rgba(192,192,192,0.9);
+}
+.head_to_state{
+    font-size: 250%;
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: center;
+    color:white;
+}
+
+.easteregg{
+    width: 10em;
+    height: 5ex;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.easteregg:active{
+    box-shadow: 2px 2px 5px #fc894d;;
+}
+
+.list{
+    margin-left:50%;
+}
+
+.ubun li{
+    
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: white;
+    list-style-type: none;
+
+}
+.ubun li a{
+    color:black;
+}
+.ubun li:hover{
+    background-color: gray;
+}

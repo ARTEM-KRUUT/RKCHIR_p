@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <!--обозначает то что мы пишем html код , атрибут lang объявляет основной язык страницы -->
+<head>
+    <!-- Здесь находятся все метаданные страницы -->
+    <meta charset="UTF-8"> <!-- meta преоставляет браузеру метаданные о документе; атрибут charster объявляет кодировку utf-8-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--viewport контролирует масштаб отображения страницы на устройствах  -->
+    <!--content со значениями width=device-width и initial-scale=1.0 задает ширину видимой области равной ширине устройств при отсутствии изначального масштабирования.  -->
+    <title>Space aircrafts</title><!--Здесь мы задаем имя страницы , которое будет отображаться в верхней части окна-->
+
+    <link rel="icon" type="image/png" href="img/logo.png" />
+    <link rel="stylesheet" href="style.css" />
+
+ 
+</head>
+<body>
+<!-- Здесь находится все содержимое страницы-->
+<header>
+    <!-- Тег с верхней частью страницы -->
+    <!--Заголовок  с id-->
+
+    <a href="index.html">
+        <img class="logo" src="img/logo.png" alt="logo" />
+    </a>
+    
+    <h1  id="Main_head" class="headline spacetext">Space aircrafts </h1>
+    
+    <!--<nav class='list'>
+        <ul class="ubun">
+            <li>
+                <a href="galerey.html">
+                    Галерея
+                </a>
+            </li>
+            <li>
+                <a href="video.html">
+                    Section2
+                </a>
+            </li>
+            <li>
+                <a href="horek.html">
+                    Easteregg
+                </a>
+            </li>
+            <li>
+                <a href="registration.html">
+                    Профиль
+                </a>
+            </li>
+            
+        </ul>
+    </nav>-->
+    <div class="hamburger-menu">
+        <!--кнопка меню будет выполнена как чекбокс-->
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span> <!--место для кнопки меню в мобильном устройстве-->
+        </label>
+        
+        <ul class="menu__box">
+          <li><a class="menu__item" href="index.html">Главная</a></li>
+          <li><a class="menu__item" href="galerey.html">Галерея</a></li>
+          <li><a class="menu__item" href="Page.html">Фоновое видео</a></li>
+          <li><a class="menu__item" href="horek.html">Easteregg</a></li>
+          <li><a class="menu__item" href="registration.html">Профиль</a></li>
+        </ul>
+    </div>
+
+
+</header>
+    <main>
+        <div class="grid-gallery-container">
+
+
+            <div class="grid-content-gallery w-2 h-2">
+                <div class="gallery-item">
+                    <div class="grid-image">
+                        <img src="https://games.mail.ru/hotbox/content_files/gallery/a0/47/0c1e7e75.jpeg" alt="nature">
+                    </div>
+                    <div class="grid-text">
+                        Space
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="grid-content-gallery w-1 h-3">
+                <div class="gallery-item">
+                    <div class="grid-image">
+                        <img src="https://i.pinimg.com/736x/28/c8/b9/28c8b96d25a8e48f178deb6bbae85117.jpg" alt="nature">
+                    </div>
+                    <div class="grid-text">
+                        Space
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="grid-content-gallery h-4 w-3">
+                <div class="gallery-item">
+                    <div class="grid-image">
+                        <img src="https://i.pinimg.com/736x/46/fc/49/46fc494c29e63628de720447c36c0713.jpg" alt="nature">
+                    </div>
+                    <div class="grid-text">
+                        Space
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="grid-content-gallery h-2 w-3">
+                <div class="gallery-item">
+                    <div class="grid-image">
+                        <img src="https://i.pinimg.com/originals/b9/49/72/b949722309252f87ba86f403ebf43a08.png" alt="nature">
+                    </div>
+                    <div class="grid-text">
+                        Space
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="grid-content-gallery h-3 w-2">
+                <div class="gallery-item">
+                    <div class="grid-image">
+                        <img src="https://games.mail.ru/hotbox/content_files/gallery/a0/47/0c1e7e75.jpeg" alt="nature">
+                    </div>
+                    <div class="grid-text">
+                        Space
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="grid-content-gallery h-1 w-2">
+                <div class="gallery-item">
+                    <div class="grid-image">
+                        <img src="https://i.pinimg.com/originals/01/72/3f/01723f80aec8272df20a8d584c52a4fa.jpg" alt="nature">
+                    </div>
+                    <div class="grid-text">
+                        Space
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="grid-content-gallery h-1 w-1">
+                <div class="gallery-item">
+                    <div class="grid-image">
+                        <img src="https://i.pinimg.com/originals/01/72/3f/01723f80aec8272df20a8d584c52a4fa.jpg" alt="nature">
+                    </div>
+                    <div class="grid-text">
+                        Space
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="grid-content-gallery h-1 w-1">
+                <div class="gallery-item">
+                    <div class="grid-image">
+                        <img src="https://i.pinimg.com/originals/01/72/3f/01723f80aec8272df20a8d584c52a4fa.jpg" alt="nature">
+                    </div>
+                    <div class="grid-text">
+                        Space
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="grid-content-gallery h-1 w-2">
+                <div class="gallery-item">
+                    <div class="grid-image">
+                        <img src="https://i.pinimg.com/originals/01/72/3f/01723f80aec8272df20a8d584c52a4fa.jpg" alt="nature">
+                    </div>
+                    <div class="grid-text">
+                        Space
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="grid-content-gallery h-1 w-1">
+                <div class="gallery-item">
+                    <div class="grid-image">
+                        <img src="https://i.pinimg.com/originals/01/72/3f/01723f80aec8272df20a8d584c52a4fa.jpg" alt="nature">
+                    </div>
+                    <div class="grid-text">
+                        Space
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="grid-content-gallery h-1 w-1">
+                <div class="gallery-item">
+                    <div class="grid-image">
+                        <img src="https://i.pinimg.com/originals/01/72/3f/01723f80aec8272df20a8d584c52a4fa.jpg" alt="nature">
+                    </div>
+                    <div class="grid-text">
+                        Space
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </main>
+</body>

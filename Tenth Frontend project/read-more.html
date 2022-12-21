@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <!--обозначает то что мы пишем html код , атрибут lang объявляет основной язык страницы -->
+<head>
+    <!-- Здесь находятся все метаданные страницы -->
+    <meta charset="UTF-8"> <!-- meta преоставляет браузеру метаданные о документе; атрибут charster объявляет кодировку utf-8-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--viewport контролирует масштаб отображения страницы на устройствах  -->
+    <!--content со значениями width=device-width и initial-scale=1.0 задает ширину видимой области равной ширине устройств при отсутствии изначального масштабирования.  -->
+    <title>Space aircrafts</title><!--Здесь мы задаем имя страницы , которое будет отображаться в верхней части окна-->
+
+    <link rel="icon" type="image/png" href="img/logo.png" />
+    <link rel="stylesheet" href="style.css" />
+
+ 
+</head>
+<body onload="generate()">
+<!-- Здесь находится все содержимое страницы-->
+<header>
+    <!-- Тег с верхней частью страницы -->
+    <!--Заголовок  с id-->
+
+    <a href="index.html">
+        <img class="logo" src="img/logo.png" alt="logo" />
+    </a>
+    
+    <h1  id="Main_head" class="spacetext main-text-h">Space aircrafts </h1>
+    
+    
+    <!--<nav class='list'>
+        <ul class="ubun">
+            <li>
+                <a href="galerey.html">
+                    Галерея
+                </a>
+            </li>
+            <li>
+                <a href="video.html">
+                    Section2
+                </a>
+            </li>
+            <li>
+                <a href="horek.html">
+                    Easteregg
+                </a>
+            </li>
+            <li>
+                <a href="registration.html">
+                    Профиль
+                </a>
+            </li>
+            
+        </ul>
+    </nav>-->
+    <div class="hamburger-menu">
+        <!--кнопка меню будет выполнена как чекбокс-->
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span> <!--место для кнопки меню в мобильном устройстве-->
+        </label>
+        
+        <ul class="menu__box">
+          <li><a class="menu__item" href="index.html">Главная</a></li>
+          <li><a class="menu__item" href="galerey.html">Галерея</a></li>
+          <li><a class="menu__item" href="Page.html">Фоновое видео</a></li>
+          <li><a class="menu__item" href="horek.html">Easteregg</a></li>
+          <li><a class="menu__item" href="registration.html">Профиль</a></li>
+        </ul>
+    </div>
+
+</header>
+         
+
+</body>
