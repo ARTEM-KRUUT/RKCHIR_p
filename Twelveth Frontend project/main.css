@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background: #FFFAFA;
+    
+}
+section{
+    min-height: 150px;
+    display: block;
+}
+
+section h4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.links,.notif,.close-notif,.create-list{
+    margin: 0 auto;
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+
+.create-list{
+    width: 20%;
+    background-color: #FFD1D6;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+    padding: 10px 30px;
+}
+
+.area{
+    width: 600px;
+    height: 400px;
+    background-color: #FFD1D6;
+    margin: 40px auto;
+    border-radius: 20px;
+    border: 3px solid black;
+    position: relative;
+}
+
+.area img{
+    position: absolute;
+}
+
+.where-click{
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: block;
+    text-align: center;
+}
+
+.notif__inner{
+    /* visibility: hidden; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.notifs .notif__btn{
+    border: none;
+    background: none;
+    position: relative;
+    display: inline-block;
+}
+
+.notifs .notif__btn i{
+    font-size: 46px;
+}
+
+.notif__counter{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    padding: 0px 6px;
+    background:#FFD1D6;
+    border-radius: 50%;
+}
+
+/* button.notif__btn:focus ~ .notif__inner{
+    visibility: visible;
+}  */
